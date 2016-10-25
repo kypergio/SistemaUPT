@@ -9,7 +9,5 @@ namespace Escuela.Views.Shared
     {
         public int Nombre { get; set; }
         public string  hola { get; set; }
-        Queryable onda gio como andas
-            jajajaj
     }
 }
