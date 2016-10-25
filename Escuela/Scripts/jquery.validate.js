@@ -20,7 +20,13 @@
 
 $.extend($.fn, {
 	// http://docs.jquery.com/Plugins/Validation/validate
-	validate: function( options ) {			}
+	validate: function( options ) {
+
+		// if nothing is selected, return nothing; can't chain anyway
+		if (!this.length) {
+			if (options && options.debug && window.console) {
+				console.warn( "nothing selected, can't validate, returning nothing" );
+			}
 			return;
 		}
 
