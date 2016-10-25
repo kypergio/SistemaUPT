@@ -7,5 +7,6 @@ namespace Escuela.Views.Shared
 {
     public class Class1
     {
+        public int Nombre { get; set; }
     }
 }
