@@ -11,5 +11,6 @@ namespace Escuela.Views.Shared
         public string  hola { get; set; }
         public string prueba { get; set; }
 
+
     }
 }
